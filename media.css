@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+    .carousel-caption  {
+       margin-bottom: 20%;
+       font-size: 2em;
+    }
+
+    #slider .btn {           
+        font-size: 0.6em;
+        padding: 5px 20px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 90px;
+    }
+}

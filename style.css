@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-secondary-color {
+    background-color: azure;
+}
+
+.bg-dark-color {
+    background-color: rgb(53, 53, 53);
+}
+
+.primary-color {
+    color: rgb(53, 53, 53);
+}
+
+.secondary-color {
+    color: lightgray;
+}
+
+/* NAVBAR */
+
+#navbar {
+    border-bottom: 1px solid lightgray;
+}
+
+#navbar a:hover {
+    color: gray;
+}
+
+#navbar a.active {
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand {     /* logo e icone */
+    display: flex;
+}
+
+.navbar-brand img {      /* imagem da logo */
+    width: 40px;
+}
+
+.navbar-brand span {      /* nome da logo */
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 13px;
+}
+
+#navbar-items .navbar-nav {       /* meus ul */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+/* SLIDER */
+
+#slider {
+    margin: 50px 0;  
+}
+
+.carousel-caption h5 {                 /* titulo do slide */
+    font-size: 1.7em;
+    text-shadow: rgb(13, 13, 13) 2px 2px 2px;
+}
+
+.btn {                  /* todos os botoes */
+    border-radius: 0;
+}
+
+#slider .btn {                     /* botoes do slide */
+    font-size: 0.7em;
+    padding: 5px 10px;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {              /* setinhas do slide */
+    color: black;
+    font-size: 1.9em;
+    margin-top: 50px;
+}
+
+.carousel-indicators [data-bs-target] {       /* botoes embaixo no slide */
+    background-color: rgb(20, 20, 20); 
+    opacity: 0.8;
+}
+
+.carousel-indicators .active { /* botoes embaixo qnd clicado fica mais escuro */
+    background-color: black;
+}
