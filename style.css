@@ -94,3 +94,15 @@
 .carousel-indicators .active { /* botoes embaixo qnd clicado fica mais escuro */
     background-color: black;
 }
+
+
+/* MINI BANNERS */
+
+#mini-banners .card {
+    margin-bottom: 30px;
+    padding: 15px 0;
+}
+
+#mini-banners .card-title  {
+    font-size: 1.1em;
+}
