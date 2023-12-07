@@ -66,6 +66,7 @@
     margin: 50px 0;  
 }
 
+
 .carousel-caption h5 {                 /* titulo do slide */
     font-size: 1.7em;
     text-shadow: rgb(13, 13, 13) 2px 2px 2px;
@@ -137,7 +138,7 @@
 }
 
 #featured-images img {            /* toda img dos destaques */
-    height: 80vh;
+    height: 100%;
     width: 80%;
 }
 
@@ -159,7 +160,6 @@
     background-color: rgba(255, 255, 255, 0.471);
 }
 
-.progress {
-    height: 5px;
-    position: sticky;
+ .progress-bar {
+    background-color: black;
 }
