@@ -12,4 +12,17 @@
     .carousel-indicators {
         margin-bottom: 90px;
     }
+
+    #featured-images img {
+        height: 65vh;
+        width: 100%;
+    }
+
+    #featured-images .col-md-4:hover > .banner-content {
+        opacity: 0.9;
+    }
+
+    #featured-images .banner-content {
+        opacity: 0;
+    }
 }

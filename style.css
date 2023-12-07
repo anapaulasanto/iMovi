@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 .bg-primary-color {
@@ -21,7 +22,7 @@
 }
 
 .secondary-color {
-    color: lightgray;
+    color: rgb(152, 151, 151);
 }
 
 /* NAVBAR */
@@ -98,11 +99,62 @@
 
 /* MINI BANNERS */
 
-#mini-banners .card {
-    margin-bottom: 30px;
-    padding: 15px 0;
+#mini-banners {
+    margin-bottom: 110px;
 }
 
-#mini-banners .card-title  {
+#mini-banners .card {       /* cada card */
+    margin-bottom: 50px;
+    padding: 15px 0;
+    border-radius: 2px;
+}
+
+#mini-banners .card-title  {    /* titulo do card */
     font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+#mini-banners .card-body .btn {         /* botao do card */
+    margin-top: 20px;
+    padding: 12px 16px;
+    border-radius: 2px;
+}
+
+#mini-banners i {            /* icone do card */
+    font-size: 2em;
+}
+
+/* DESTAQUES */
+
+#featured-container .title {        /* titulo da seção */
+    text-shadow: 1px 1px 2px rgb(147, 145, 145);
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.subtitle {
+    margin-bottom: 70px;
+}
+
+#featured-images img {            /* toda img dos destaques */
+    height: 80vh;
+    width: 80%;
+}
+
+#featured-images .col-md-4 {       /* seção com img e legenda sobre as imgs */
+    position: relative;
+    cursor: pointer;
+}
+
+#featured-images .banner-content {           /* legenda sobre as imgs ocupando toda largura e altura da img */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.471);
 }
