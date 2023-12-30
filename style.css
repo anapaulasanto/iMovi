@@ -101,7 +101,7 @@
 /* MINI BANNERS */
 
 #mini-banners {
-    margin-bottom: 110px;
+    margin-bottom: 50px;
 }
 
 #mini-banners .card {       /* cada card */
@@ -127,10 +127,11 @@
 
 /* DESTAQUES */
 
-#featured-container .title {        /* titulo da seção */
+ .title {        /* titulo da seção */
     text-shadow: 1px 1px 2px rgb(147, 145, 145);
     letter-spacing: 3px;
     position: relative;
+    margin-top: 70px;
 }
 
 .subtitle {
