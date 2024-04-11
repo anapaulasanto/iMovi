@@ -13,6 +13,19 @@
   <img alt="banner" title="banner" src="./assets/Banner1.png">
    <img alt="banner" title="banner" src="./assets/Banner2.png">
 </div>
+
+<br>
+
+> Simula um site de imobiliária, utilizando bootstrap.
+
+<br><br>
+
+## 📝 Ajustes e melhorias
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [ ] Conclusão da página
+- [ ] Criação das demais seções
+
   
 <br>
 <h2> 💻 Autor</h2>
