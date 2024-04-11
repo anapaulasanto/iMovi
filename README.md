@@ -1,5 +1,4 @@
- <h1 align="center">iMovi project</h1>
- <p align="center"> Projeto de um site imobiliário usando Bootstrap </p>
+ <h1 align="center">iMovi</h1>
 
   <div align="center">
  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
